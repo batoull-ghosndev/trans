@@ -2,8 +2,8 @@
 ?>
 <html>
     <head>
-        <style>
-        </style>    
+       <link rel="stylesheet" href="style.css">
+ 
     </head>
     <body>
         <?php include'header.php';?> 

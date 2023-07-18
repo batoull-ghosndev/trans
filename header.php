@@ -1,25 +1,37 @@
 <?php
 ?>
-<html><head>
+<html>
+    <head>
         <style>
                 #n{
-		background-color: black;}
-		#main { color: white;
-		text-align: right;}
-		th{font-size: 30px;}
-		#main a{color: white;
-		font-size: 20px;
-		padding: 30px;}
-		#main a:hover{ color: gray;}
-		#main a{color: white;
-		text-align: right;}
+		   background-color: black;
+                }
+		#main{ 
+                    color: white;
+		    text-align: right;
+                }
+		th{
+                  font-size: 30px;
+                }
+		#main a{
+                        color: white;
+                        font-size: 20px;
+                        padding: 30px;
+                }
+		#main a:hover{ 
+                             color: gray;
+                }
+		#main a{
+                        color: white;
+                        text-align: right;
+                }
                 #searchlnput{
-                    font-size:16px;
-                    padding:10px 24px ; 
-                    border-radius: 30%;
+                            font-size:16px;
+                            padding:10px 24px ; 
+                            border-radius: 30%;
                 }
                 #searchlnput:hover {
-                    background-color:#ccccff;
+                                    background-color:#ccccff;
                 }
                 #logo{
                     width:30px;
@@ -50,23 +62,22 @@
     </head>
 <body>
         <div id="n">
-        <table id="main">
-        <tr>
-        <th>
-        <img class="logo" src="111.jpg"/>
-        </th>
-        <td width="2%"></td>
-        <td colspan=7>
+                <table id="main">
+                <tr>
+                    <th>
+                    <img class="logo" src="11.jpg"/>
+                    </th>
+                            <td width="2%"></td>
+                            <td colspan=7>
+                            <input type="text" id="searchlnput" placeholder="Search...">
+                               <ul id="serchResults"></ul>
+                            </td>
+                            <td width="40%"> </td>
 
-        <input type="text" id="searchlnput" placeholder="Search...">
-           <ul id="serchResults"></ul>
-        </td>
-        <td width="40%"> </td>
-
-        <td><a href="registertrans.php">Register</a></td>
-        <td><a href="">Join Us</a></td>
-        </tr>
-        </table> 
+                            <td><a href="registertrans.php">Register</a></td>
+                            <td><a href="11.php">Join Us</a></td>
+                </tr>
+                </table> 
         </div>
 </body>
 </html>
